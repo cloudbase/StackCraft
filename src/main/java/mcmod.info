@@ -1,0 +1,16 @@
+[
+{
+  "modid": "openstackmod",
+  "name": "OpenStack mod",
+  "description": "OpenStack inside Minecraft",
+  "version": "1.0",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CloudBase Solutions"],
+  "credits": "OpenStack community, The Forge and FML community",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [ "mod_MinecraftForge" ]
+}
+]

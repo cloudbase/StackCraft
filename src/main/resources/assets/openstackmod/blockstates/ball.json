@@ -1,0 +1,14 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "openstackmod:basicCannonball.obj",
+        "custom": {
+            "flip-v": true
+        }
+    },
+    "variants": {
+        "inventory": [{
+            "transform": "forge:default-block"
+        }]
+    }
+}

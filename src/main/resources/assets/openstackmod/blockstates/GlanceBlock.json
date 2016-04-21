@@ -1,0 +1,17 @@
+    {
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:glanceblock"
+        }],
+        "inventory": [{
+            "model": "openstackmod:glanceblock",
+            "transform": "forge:default-block"
+        }],
+        "entity": [{
+            "model": "openstackmod:glanceblock",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

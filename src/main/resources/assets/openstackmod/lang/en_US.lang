@@ -1,0 +1,14 @@
+tile.openstackmod_OpenStackness.name=Openstackness
+tile.openstackmod_NovaBlock.name=Nova Block
+tile.openstackmod_NeutronBlock.name=Neutron Block
+tile.openstackmod_GlanceBlock.name=Glance Block
+tile.openstackmod_FlavorOther.name=Flavor Block
+tile.openstackmod_InstanceBlock.name=Openstack Instance
+tile.openstackmod_container.GlanceBlockEntity=Glance Block
+tile.openstackmod_CloudBase.name=CloudBaseness
+item.openstackmod_RDPItem.name=Computer
+item.openstackmod_BlankImage.name=Blank Image
+item.openstackmod_GlanceImage.name=Glance Image
+item.openstackmod_NIC.name=Neutron NIC
+item.openstackmod_Board.name=Board
+item.openstackmod_Chip.name=Chip

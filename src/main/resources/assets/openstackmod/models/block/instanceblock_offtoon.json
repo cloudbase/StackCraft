@@ -1,0 +1,42 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "openstackmod:blocks/instanceblockbottom",
+        "0": "openstackmod:blocks/instanceblockfront_off",
+        "1": "openstackmod:blocks/instanceblockside1",
+        "2": "openstackmod:blocks/instanceblockrear",
+        "3": "openstackmod:blocks/instanceblockside0_off",
+        "4": "openstackmod:blocks/instanceblocktop",
+        "5": "openstackmod:blocks/instanceblockbottom",
+        "6": "openstackmod:blocks/instanceblock_lever"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#5", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Lever",
+            "from": [ 7.0, 15.0, 7.0 ], 
+            "to": [ 9.0, 21.0, 9.0 ], 
+            "rotation": { "origin": [ 8.0, 14.0, 8.0 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 9.0 ] },
+                "east": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 9.0 ] },
+                "south": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 9.0 ] },
+                "west": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 9.0 ] },
+                "up": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 5.0 ] },
+                "down": { "texture": "#6", "uv": [ 7.0, 3.0, 9.0, 5.0 ] }
+            }
+        }
+    ]
+}

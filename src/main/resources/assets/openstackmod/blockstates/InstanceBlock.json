@@ -1,0 +1,34 @@
+    {
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:instanceblock_off"
+        }],
+        "inventory": [{
+            "model": "openstackmod:instanceblock_on",
+            "transform": "forge:default-block"
+        }],
+        "type=on": [{
+            "model": "openstackmod:instanceblock_on"
+        }],
+        "type=off": [{
+            "model": "openstackmod:instanceblock_off"
+        }],
+        "type=powon": [{
+            "model": "openstackmod:instanceblock_powon"
+        }],
+        "type=powoff": [{
+            "model": "openstackmod:instanceblock_powoff"
+        }],
+        "type=err": [{
+            "model": "openstackmod:instanceblock_err"
+        }],
+        "type=ontooff": [{
+            "model": "openstackmod:instanceblock_ontooff"
+        }],
+        "type=offtoon": [{
+            "model": "openstackmod:instanceblock_offtoon"
+        }]
+    }
+    
+}

@@ -1,0 +1,17 @@
+    {
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:flavorotherblock"
+        }],
+        "inventory": [{
+            "model": "openstackmod:flavorotherblock",
+            "transform": "forge:default-block"
+        }],
+        "entity": [{
+            "model": "openstackmod:flavorotherblock",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

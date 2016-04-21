@@ -1,0 +1,13 @@
+    {
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:novablock"
+        }],
+        "inventory": [{
+            "model": "openstackmod:novablock",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

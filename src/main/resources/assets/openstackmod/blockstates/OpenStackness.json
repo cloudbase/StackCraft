@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:openstacklogo"
+        }],
+        "inventory": [{
+            "model": "openstackmod:openstacklogo",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

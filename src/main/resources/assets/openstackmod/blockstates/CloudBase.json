@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:cloudbaselogo"
+        }],
+        "inventory": [{
+            "model": "openstackmod:cloudbaselogo",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

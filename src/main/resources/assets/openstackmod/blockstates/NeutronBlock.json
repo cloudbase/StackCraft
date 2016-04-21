@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": [{
+            "model": "openstackmod:neutronblock"
+        }],
+        "inventory": [{
+            "model": "openstackmod:neutronblock",
+            "transform": "forge:default-block"
+        }]
+    }
+    
+}

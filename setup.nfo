@@ -1,0 +1,11 @@
+You will need MDK Forge 1.8, Eclipse
+
+run:
+gradlew.bat setupDecompWorkspace
+gradlew.bat eclipse
+
+copy the mod (/src) in the project
+
+start the MC2OS and configure the mc2os.txt file
+
+Enjoy

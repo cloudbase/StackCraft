@@ -28,8 +28,6 @@ if __name__ == '__main__':
             name = line.split('=')[1]
             HOST_NAME = name.split(':')[0]
             PORT_NUMBER = int(name.split(':')[1])
-        if line.startswith("VERSION"):
-            pass#helper.VERSION = line.split('=')[1]
         if line.startswith("USERNAME"):
             helper.USERNAME = line.split('=')[1]
         if line.startswith("PASSWORD"):

@@ -1,18 +1,22 @@
 from novaclient import client
+from keystoneauth1 import session
+from keystoneauth1.identity import v3
 from novaclient import exceptions
 
-VERSION = "2.0"
 USERNAME = "admin"
 PASSWORD = "Passw0rd"
 PROJECT = "admin"
-AUTHURL = "http://10.250.168.3:5000/v2.0"
+AUTHURL = "http://10.250.168.3:5000/v3"
 
 def GetNova():
-    nova = client.Client(VERSION,
-                         USERNAME,
-                         PASSWORD,
-                         PROJECT,
-                         AUTHURL)
+    auth = v3.Password(auth_url=AUTHURL,
+                       username=USERNAME,
+                       password=PASSWORD,
+                       project_name=PROJECT,
+                       user_domain_name='Default',
+                       project_domain_name='Default')
+    sess = session.Session(auth=auth, verify=False)
+    nova = client.Client(2, session=sess)
     return nova
 
 class Helper:
